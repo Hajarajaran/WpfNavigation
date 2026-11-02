@@ -24,7 +24,7 @@ namespace WpfNavigation
 
         private void Hello_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show($"Szia {txtName.Text}!");
+            MessageBox.Show($"Ödvözöllek {txtName.Text}!");
         }
 
         private void Close_Click(object sender, RoutedEventArgs e)
