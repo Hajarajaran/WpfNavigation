@@ -1,0 +1,19 @@
+﻿<Window x:Class="WpfNavigation.InfoWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfNavigation"
+        mc:Ignorable="d"
+        Title="InfoWindow" Height="450" Width="600">
+    <Grid Margin="20">
+        <StackPanel>
+            <TextBlock Text="Külön Window" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,20,0,0"/>
+            <TextBlock Text="Ez az ablak nem Page, hanem önállő Window." HorizontalAlignment="Center" Margin="0,10,0,20" Foreground="Gray"/>
+            <TextBlock Text="Írd be a neved:" FontWeight="Bold" Margin="0,10,0,10"/>
+            <TextBox x:Name="txtName" Height="45"/>
+            <Button Content="Köszönés" Height="45" Margin="0,20,0,0" Click="Hello_Click"/>
+            <Button Content="Ablak bezárása" Height="45" Margin="0,10,0,0" Click="Close_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
